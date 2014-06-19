@@ -12,3 +12,6 @@
 #content h1 {
 	color: #F80505;
 }
+#home-link a {
+	background: red;
+}
