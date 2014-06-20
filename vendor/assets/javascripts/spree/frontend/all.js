@@ -16,5 +16,9 @@ $( document ).ready(function() {
 	$( "#nav-bar li" ).each(function() {
 	 	$(this).addClass('pos_' + count );
 	 	count++;
-	});  
+	}); 
+
+	$('#nav-bar .pos_0 a ').text('התחבר');
+	$('#nav-bar .pos_1 a ').text('הרשם');
+	
 });
