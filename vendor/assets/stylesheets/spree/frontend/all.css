@@ -10,7 +10,18 @@
  *= require_tree .
 */
 
-
 body {
-	background: yellow;
+	background: url(images/body_bg.jpg);
 }
+body:before {
+	content: "";
+	position: absolute;
+	top: 0;
+	right: 0;
+	background: #fff;
+	height: 125px;
+	width: 100%;
+}
+/*----------------------[Header]--------------------------*/
+
+/*----------------------[and Header]----------------------*/
