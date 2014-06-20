@@ -14,10 +14,12 @@ Deface::Override.new(:virtual_path => 'spree/shared/_header',
 Deface::Override.new(:virtual_path => 'spree/shared/_header',
          :name => 'my_account',
          :replace_contents => '#nav-bar .pos_0 a',
-         :text          => '<a href="/account">התחבר</a>',
+         :text          => '<a href="/account">zzz</a>',
 )
 
 
 #:insert_after
+#:insert_before
 #:insert_top
-# :replace_contents
+#:insert_bottom
+#:replace_contents
