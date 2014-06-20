@@ -43,7 +43,7 @@ Spree.config do |config|
 	#config.hide_cents = false
 	#config.last_check_for_spree_alerts = nil
 	#config.layout = 'spree/layouts/spree_application'
-	config.logo = 'logo.png'
+	config.logo = 'logo/spree_50.png'
 	#config.max_level_in_taxons_menu = 1 # maximum nesting level in taxons menu
 	#config.orders_per_page = 15
 	#config.prices_inc_tax = false
