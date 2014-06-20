@@ -45,7 +45,13 @@ body:before {
 input[type="submit"] {
 	background: url(/images/search.png);
 	width: 39px;
-	height: 33px;
+	height: 32px;
+	font-size: 0;
+	border: none;
+	padding: 0;
+	position: absolute;
+	top: 0;
+	left: 12px;
 }
 input#keywords {
 	width: 217px;
@@ -54,14 +60,23 @@ input#keywords {
 	-moz-border-radius: 3px/2px;
 	border-radius: 3px/2px;
 	background-color: rgba(225,18,29,0);
-	-webkit-box-shadow: inset 1px 1px rgba(255,255,255,.4);
-	-moz-box-shadow: inset 1px 1px rgba(255,255,255,.4);
-	box-shadow: inset 1px 1px rgba(255,255,255,.4);
-	border: solid 1px #2b5474;
-	background-image: -webkit-linear-gradient(bottom, rgba(0,0,0,.1), rgba(255,255,255,.1));
-	background-image: -moz-linear-gradient(bottom, rgba(0,0,0,.1), rgba(255,255,255,.1));
-	background-image: -o-linear-gradient(bottom, rgba(0,0,0,.1), rgba(255,255,255,.1));
-	background-image: linear-gradient(to top, rgba(0,0,0,.1), rgba(255,255,255,.1));
+	-webkit-box-shadow: inset 1px 1px rgba(255,255,255,0.4);
+	-moz-box-shadow: inset 1px 1px rgba(255,255,255,0.4);
+	box-shadow: inset 1px 1px rgba(255,255,255,0.4);
+	border: solid 1px #707070;
+	background-image: -webkit-linear-gradient(bottom, rgba(0,0,0,0.1), rgba(255,255,255,0.1));
+	background-image: -moz-linear-gradient(bottom, rgba(0,0,0,0.1), rgba(255,255,255,0.1));
+	background-image: -o-linear-gradient(bottom, rgba(0,0,0,0.1), rgba(255,255,255,0.1));
+	background-image: linear-gradient(to top, rgba(0,0,0,0.1), rgba(255,255,255,0.1));
+	padding: 0 6px 0 0;
+}
+#search-bar {
+	width: 218px;
+	padding: 0;
+	position: relative;
+}
+select#taxon {
+	display: none;
 }
 /*----------------------[and Header]----------------------*/
 
