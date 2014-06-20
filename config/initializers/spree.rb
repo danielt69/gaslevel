@@ -10,6 +10,7 @@ Spree.config do |config|
   # Uncomment to override the default site name.
   # config.site_name = "Spree Demo Site"
   config.products_per_page = 12
+  config.logo = 'logo/spree_50.png'
 end
 
 
