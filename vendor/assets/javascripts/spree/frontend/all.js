@@ -10,3 +10,11 @@
 //= require spree/frontend
 
 //= require_tree .
+
+$( document ).ready(function() {
+	var count = 0;
+	$( "#nav-bar li" ).each(function() {
+	 	$(this).addClass('pos_' + count );
+	 	count++;
+	});  
+});
