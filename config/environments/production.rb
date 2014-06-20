@@ -80,3 +80,4 @@ Htdocs::Application.configure do
   config.attachment_path = ":rails_root/public/products/:id/:style/:basename.:extension" 
 end
 
+
