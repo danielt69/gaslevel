@@ -11,10 +11,6 @@
  *= require_self
  *= require_tree .
  */
-#content h1 {
-	color: #F80505;
-}
-
-body {
-	background: #000;
+li#home-link a {
+	color: red;
 }

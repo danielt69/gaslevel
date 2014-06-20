@@ -9,9 +9,3 @@
  *= require_self
  *= require_tree .
 */
-#content h1 {
-	color: #F80505;
-}
-#home-link a {
-	background: red !important;
-}
