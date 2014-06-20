@@ -1,0 +1,5 @@
+end update at:
+/opt/bitnami/apache2/scripts/ctl.sh : httpd stopped
+/opt/bitnami/apache2/scripts/ctl.sh : httpd started at port 80
+end update at:
+Thu Jun 19 21:46:24 UTC 2014
