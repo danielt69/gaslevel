@@ -12,4 +12,5 @@ Spree.config do |config|
   config.products_per_page = 12
 end
 
+
 Spree.user_class = "Spree::User"
