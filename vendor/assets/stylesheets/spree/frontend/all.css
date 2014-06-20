@@ -11,7 +11,7 @@
 */
 
 body {
-	background: url(/images/body_bg.jpg);
+	background: url(../../images/body_bg.jpg);
 }
 body:before {
 	content: "";
