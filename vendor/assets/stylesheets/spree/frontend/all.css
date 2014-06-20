@@ -89,7 +89,7 @@ ul#nav-bar {
 	height: 100%;
 }
 nav#top-nav-bar ul li {
-	padding-right: 10px;
+	padding: 0 0 0 0;
 }
 nav#top-nav-bar ul li a {
 	font-weight: normal;
