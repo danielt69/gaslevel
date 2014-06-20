@@ -9,3 +9,6 @@
  *= require_self
  *= require_tree .
 */
+li#home-link a {
+	color: red;
+}
