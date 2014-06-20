@@ -12,7 +12,7 @@ Spree.config do |config|
 
 #main settings
 	#config.address_requires_state = true # should state/state_name be required
-	#config.admin_interface_logo = 'logo/spree_50.png'
+	config.admin_interface_logo = 'logo/pikkonet_logo.png'
 	#config.admin_products_per_page = 10
 	#config.allow_backorder_shipping = false # should only be true if you don't need to track inventory
 	#config.allow_checkout_on_gateway_error = false
@@ -43,7 +43,7 @@ Spree.config do |config|
 	#config.hide_cents = false
 	#config.last_check_for_spree_alerts = nil
 	#config.layout = 'spree/layouts/spree_application'
-	config.logo = 'logo/spree_50.png'
+	config.logo = 'logo/lagas_logo.png'
 	#config.max_level_in_taxons_menu = 1 # maximum nesting level in taxons menu
 	#config.orders_per_page = 15
 	#config.prices_inc_tax = false
