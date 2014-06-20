@@ -12,7 +12,7 @@ Spree.config do |config|
   config.site_url = "10.104.214.119"
   config.allow_ssl_in_production = false
   config.products_per_page = 1
-  config.logo = '/app/logo/spree_50.png'
+  # config.logo = '/app/logo/spree_50.png'
 
 
 end
