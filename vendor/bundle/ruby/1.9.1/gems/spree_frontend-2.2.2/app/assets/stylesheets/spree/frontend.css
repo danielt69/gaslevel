@@ -4,3 +4,8 @@
  *= require skeleton
  *= require spree/frontend/screen
 */
+
+
+body {
+	background: #000;
+}
