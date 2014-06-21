@@ -231,15 +231,21 @@ footer#footer {
 	height: auto;
 	display: table;
 }
+footer#footer > div {
+	margin: 0;
+	float: right;
+	display: inline-block;
+}
 #footer h3 {
 	color: #0a8ec9;
 	font-size: 19px;
 	line-height: 20px;
 }
-footer#footer > div {
-	margin: 0;
-	float: right;
-	display: inline-block;
+#footer-right {
+	width: 266px;
+	height: 270px;
+	border-left: 1px solid #646464;
+	padding-left: 60px;
 }
 /*----------------------[end Footer]----------------------*/
 /*=====================================================================================================================================*/
