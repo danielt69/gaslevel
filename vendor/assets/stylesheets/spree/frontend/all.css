@@ -10,7 +10,8 @@
  *= require_tree .
 */
 li {
-	list-style: none;	
+	list-style: none;
+	float: right;	
 }
 body {
 	background: url(/images/body_bg.jpg);
@@ -173,6 +174,20 @@ ul#main-nav-bar {
 }
 nav #main-nav-bar li#link-to-cart:hover {
 	border: solid 1px #2b5474;
+}
+ul.main_bar {
+	position: absolute;
+	top: 125px;
+	width: 100%;
+	margin: 0;
+	height: 63px;
+}
+ul.main_bar li.item_1 {
+	padding-right: 0;
+}
+ul.main_bar li {
+	padding: 0 50px;
+	height: 100%;
 }
 /*----------------------[and Header]----------------------*/
 /*=====================================================================================================================================*/
