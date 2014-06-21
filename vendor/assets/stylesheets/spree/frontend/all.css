@@ -371,6 +371,8 @@ ul.items li {
 	-moz-box-shadow: 0 0 7px rgba(99,99,99,.45);
 	box-shadow: 0 0 7px rgba(99,99,99,.45);
 	border: solid 1px #acacac;
+	position: relative;
+	text-align: center;
 }
 ul li.main_item1 {
 	background: url(/images/image_item1.png) no-repeat 0px 0px;
@@ -380,6 +382,15 @@ ul li.main_item2 {
 }
 ul li.main_item3 {
 	background: url(/images/image_item3.png) no-repeat 0px 0px;
+}
+ul.items li h3 {
+	font-size: 19px;
+	line-height: 43px;
+	color: #ed1c24;
+	margin-top: 35px;
+	border-bottom: 1px solid rgba(255, 255, 255, 0.36);
+	width: auto;
+	display: inline-block;
 }
 /*----------------------[end Homepage]----------------------*/
 /*=====================================================================================================================================*/
