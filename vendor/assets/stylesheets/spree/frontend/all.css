@@ -206,6 +206,9 @@ ul.main_bar li a h3 {
 	height: 20px;
 	line-height: 16px;
 }
+nav#top-nav-bar ul li.pos_1 {
+	padding-right: 6px;
+}
 /*----------------------[and Header]----------------------*/
 
 /*----------------------[end Header]----------------------*/

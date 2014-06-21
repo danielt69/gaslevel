@@ -20,7 +20,7 @@ $( document ).ready(function() {
 	}); 
 
 	//Header change my account to he
-	$('#nav-bar .pos_0 a ').text('התחבר / ');
+	$('#nav-bar .pos_0 a ').text('התחבר  / ');
 	$('#nav-bar .pos_1 a ').text('הרשם');
 
 });
