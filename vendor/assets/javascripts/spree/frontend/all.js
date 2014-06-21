@@ -12,13 +12,21 @@
 //= require_tree .
 
 $( document ).ready(function() {
+	//Header add class to nav bar (pos_0)
 	var count = 0;
 	$( "#nav-bar li" ).each(function() {
 	 	$(this).addClass('pos_' + count );
 	 	count++;
 	}); 
 
+	//Header change my account to he
 	$('#nav-bar .pos_0 a ').text('התחבר / ');
 	$('#nav-bar .pos_1 a ').text('הרשם');
 	
+	//Header change text Cart
+	$('#link-to-cart a .amount').remove();
+	var x = $('a.cart-info.full').text();
+	var y = x.replace("Cart:", "עגלת קניות");
+	$('a.cart-info.full').text(y);
+
 });
