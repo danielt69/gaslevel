@@ -480,5 +480,13 @@ ul.items:after {
 div.bottom_wrapper {
 	height: 255px;
 }
+div.bottom_wrapper .right {
+	float: right;
+	width: 320px;
+}
+div.bottom_wrapper .left {
+	float: left;
+	width: 621px;
+}
 /*----------------------[end Homepage]----------------------*/
 /*=====================================================================================================================================*/
