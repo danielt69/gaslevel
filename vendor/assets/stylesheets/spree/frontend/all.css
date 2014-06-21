@@ -8,6 +8,10 @@
 
  *= require_self
  *= require_tree .
+ *= require themes/default/default
+ *= require themes/pascal/pascal
+ *= require themes/orman/orman
+ *= require nivo-slider
 */
 a {
 	cursor: pointer;
@@ -59,7 +63,11 @@ meter,
 progress {
 	font-family: 'Open Sans Hebrew' !important;
 }
-/*----------------------[Header]--------------------------*/
+/*----------------------[Header]-------------------------- *= require themes/default/default
+ *= require themes/pascal/pascal
+ *= require themes/orman/orman
+ *= require nivo-slider
+*/
 #header {
 	width: 960px;
 	margin: 0 auto;
@@ -238,17 +246,41 @@ ul.main_bar li:hover {
 #footer form li input[type="submit"]:hover {
 	background-color: #00adee;
 }
-/*----------------------[end Header]----------------------*/
+/*----------------------[end Header]---------------------- *= require themes/default/default
+ *= require themes/pascal/pascal
+ *= require themes/orman/orman
+ *= require nivo-slider
+*/
 
-/*=====================================================================================================================================*/
-/*----------------------[Wrapper]--------------------------*/
+/*===================================================================================================================================== *= require themes/default/default
+ *= require themes/pascal/pascal
+ *= require themes/orman/orman
+ *= require nivo-slider
+*/
+/*----------------------[Wrapper]-------------------------- *= require themes/default/default
+ *= require themes/pascal/pascal
+ *= require themes/orman/orman
+ *= require nivo-slider
+*/
 #wrapper {
 	background: #fff;
 	margin-bottom: 60px;
 }
-/*----------------------[end Wrapper]----------------------*/
-/*=====================================================================================================================================*/
-/*----------------------[Footer]--------------------------*/
+/*----------------------[end Wrapper]---------------------- *= require themes/default/default
+ *= require themes/pascal/pascal
+ *= require themes/orman/orman
+ *= require nivo-slider
+*/
+/*===================================================================================================================================== *= require themes/default/default
+ *= require themes/pascal/pascal
+ *= require themes/orman/orman
+ *= require nivo-slider
+*/
+/*----------------------[Footer]-------------------------- *= require themes/default/default
+ *= require themes/pascal/pascal
+ *= require themes/orman/orman
+ *= require nivo-slider
+*/
 footer#footer {
 	padding: 0;
 	width: 960px;
@@ -380,16 +412,48 @@ footer#footer div.logo_ref {
 #footer form li input[type="submit"] {
 	color: #fff;
 }
-/*----------------------[end Footer]----------------------*/
-/*=====================================================================================================================================*/
-/*----------------------[Item]--------------------------*/
-/*----------------------[end Item]----------------------*/
-/*=====================================================================================================================================*/
-/*----------------------[Products]--------------------------*/
+/*----------------------[end Footer]---------------------- *= require themes/default/default
+ *= require themes/pascal/pascal
+ *= require themes/orman/orman
+ *= require nivo-slider
+*/
+/*===================================================================================================================================== *= require themes/default/default
+ *= require themes/pascal/pascal
+ *= require themes/orman/orman
+ *= require nivo-slider
+*/
+/*----------------------[Item]-------------------------- *= require themes/default/default
+ *= require themes/pascal/pascal
+ *= require themes/orman/orman
+ *= require nivo-slider
+*/
+/*----------------------[end Item]---------------------- *= require themes/default/default
+ *= require themes/pascal/pascal
+ *= require themes/orman/orman
+ *= require nivo-slider
+*/
+/*===================================================================================================================================== *= require themes/default/default
+ *= require themes/pascal/pascal
+ *= require themes/orman/orman
+ *= require nivo-slider
+*/
+/*----------------------[Products]-------------------------- *= require themes/default/default
+ *= require themes/pascal/pascal
+ *= require themes/orman/orman
+ *= require nivo-slider
+*/
 /*----------------------[end Products]----------------------
-/*=====================================================================================================================================*/
+/*===================================================================================================================================== *= require themes/default/default
+ *= require themes/pascal/pascal
+ *= require themes/orman/orman
+ *= require nivo-slider
+*/
 
-/*----------------------[Homepage]--------------------------*/
+/*----------------------[Homepage]-------------------------- *= require themes/default/default
+ *= require themes/pascal/pascal
+ *= require themes/orman/orman
+ *= require nivo-slider
+*/
 #wrapper div#content {
 	width: 960px;
 	margin: 0 auto;
@@ -488,5 +552,13 @@ div.bottom_wrapper .left {
 	float: left;
 	width: 621px;
 }
-/*----------------------[end Homepage]----------------------*/
-/*=====================================================================================================================================*/
+/*----------------------[end Homepage]---------------------- *= require themes/default/default
+ *= require themes/pascal/pascal
+ *= require themes/orman/orman
+ *= require nivo-slider
+*/
+/*===================================================================================================================================== *= require themes/default/default
+ *= require themes/pascal/pascal
+ *= require themes/orman/orman
+ *= require nivo-slider
+*/

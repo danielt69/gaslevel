@@ -39,3 +39,4 @@ $(window).load(function() {
 
 
 
+//= require jquery.nivo.slider.pack.js
