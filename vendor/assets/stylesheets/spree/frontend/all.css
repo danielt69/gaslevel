@@ -326,19 +326,23 @@ footer#footer div.logo_ref {
 #footer form {
 	position: relative;
 }
-#footer form li input {
-	width: 100%;
-	display: block;
-	border: none;
-}
 #footer form li {
 	width: 100%;
 	display: block;
 	float: none;
 	margin-bottom: 18px;
+}
+#footer form li input {
+	width: 100%;
+	display: block;
+	border: none;
 	line-height: 27px;
 	font-size: 13px;
 	color: #636363;
+	padding: 0 5px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
 }
 #footer form li textarea {
 	width: 100%;
