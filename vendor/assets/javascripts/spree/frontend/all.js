@@ -35,6 +35,6 @@ $(window).load(function() {
 });
 
 
-
+<script>
 $('input#keywords').attr("placeholder", "");
-
+</script>
