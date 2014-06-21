@@ -37,6 +37,7 @@ body:before {
 	width: 960px;
 	margin: 0 auto;
 	position: relative;
+	height: 188px;
 }
 figure#logo {
 	width: auto;
