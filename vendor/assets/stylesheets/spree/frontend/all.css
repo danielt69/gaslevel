@@ -413,6 +413,7 @@ ul li.main_item1 {
 }
 ul li.main_item2 {
 	background: url(/images/image_item2.png) no-repeat 45px 30px;
+	margin: 0 50px;
 }
 ul li.main_item3 {
 	background: url(/images/image_item3.png) no-repeat 0px 0px;
@@ -425,6 +426,7 @@ ul.items li h3 {
 	border-bottom: 1px solid rgba(255, 255, 255, 0.36);
 	width: auto;
 	display: inline-block;
+	font-weight: normal;
 }
 ul.items li p {
 	font-size: 14px;
