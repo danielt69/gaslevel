@@ -9,7 +9,9 @@
  *= require_self
  *= require_tree .
 */
-
+li {
+	list-style: none;	
+}
 body {
 	background: url(/images/body_bg.jpg);
 	direction: rtl;
@@ -154,10 +156,12 @@ ul.header_top_bar li a {
 }
 ul.header_top_bar li {
 	float: right;
+	margin: 0 10px;
 }
 ul.header_top_bar {
 	position: absolute;
 	width: 330px;
+	top: 13px;
 }
 /*----------------------[and Header]----------------------*/
 /*=====================================================================================================================================*/
