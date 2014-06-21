@@ -422,7 +422,8 @@ ul.items li h3 {
 	border-bottom: 1px solid rgba(255, 255, 255, 0.36);
 	width: auto;
 	display: inline-block;
-	-webkit-transition: all 0.2s ease;                  
+	visibility: hidden;
+	 -webkit-transition: all 0.2s ease;                  
     -moz-transition: all 0.2s ease;                 
     -o-transition: all 0.2s ease;   
     -ms-transition: all 0.2s ease;          
@@ -433,7 +434,8 @@ ul.items li p {
 	line-height: 20px;
 	color: #fff;
 	padding: 0;
-	-webkit-transition: all 0.2s ease;                  
+	visibility: hidden;
+	 -webkit-transition: all 0.2s ease;                  
     -moz-transition: all 0.2s ease;                 
     -o-transition: all 0.2s ease;   
     -ms-transition: all 0.2s ease;          
@@ -445,7 +447,18 @@ ul.items li span {
 	line-height: 20px;
 	padding-top: 16px;
 	display: block;
-	-webkit-transition: all 0.2s ease;                  
+	visibility: hidden;
+	 -webkit-transition: all 0.2s ease;                  
+    -moz-transition: all 0.2s ease;                 
+    -o-transition: all 0.2s ease;   
+    -ms-transition: all 0.2s ease;          
+    transition: all 0.2s ease;
+}
+ul.items li:hover h3,
+ul.items li:hover p,
+ul.items li:hover span {
+	visibility: visible;
+	 -webkit-transition: all 0.2s ease;                  
     -moz-transition: all 0.2s ease;                 
     -o-transition: all 0.2s ease;   
     -ms-transition: all 0.2s ease;          
