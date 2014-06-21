@@ -306,19 +306,39 @@ footer#footer > div {
 .contact_info .icon {
 	width: 55px;
 	height: 55px;
-	margin: 0 20px 0 0;
+	margin: 10px 20px 0 0;
 	font-size: 0;
 	color: transparent;
 	display: inline-block;
 	float: left;
+	-moz-box-shadow: 3px 3px 4px #000000;
+	-webkit-box-shadow: 3px 3px 4px #000000;
+	box-shadow: 3px 3px 4px #000000;
 	background: url(/images/facebook_icon.png) no-repeat center center #587aca;
 }
 .contact_info .icon.yt {
 	background: url(/images/youtube_icon.png) no-repeat center center #ee3e00;
 }
-.logo_ref {
+footer#footer div.logo_ref {
 	float: left;
-	margin: 10px;
+	margin: 5px;
+}
+#footer form {
+	position: relative;
+}
+#footer form li input {
+	width: 100%;
+	display: block;
+	border: none;
+}
+#footer form li {
+	width: 100%;
+	display: block;
+	float: none;
+	margin-bottom: 18px;
+}
+#footer form li textarea{
+
 }
 /*----------------------[end Footer]----------------------*/
 /*=====================================================================================================================================*/
