@@ -9,6 +9,9 @@
  *= require_self
  *= require_tree .
 */
+a {
+	cursor: pointer;
+}
 li {
 	list-style: none;
 	float: right;	
