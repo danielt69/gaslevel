@@ -15,6 +15,7 @@ li {
 body {
 	background: url(/images/body_bg.jpg);
 	direction: rtl;
+	font-family: 'Open Sans Hebrew' !important;
 }
 body:before {
 	content: "";
