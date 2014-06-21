@@ -43,8 +43,7 @@ figure#logo {
 }
 .gaslevel_image {
 	position: absolute;
-	top: auto;
-	bottom: 80px;
+	top: 63px;
 	right: 455px;
 }
 input[type="submit"] {
@@ -79,7 +78,7 @@ nav#top-nav-bar #search-bar {
 	width: 218px;
 	position: relative;
 	top: 41px;
-	right: -130px;
+	right: -196px;
 	margin: 0;
 	padding: 0 0 0 10px;
 }
@@ -88,7 +87,7 @@ nav#top-nav-bar {
 	height: 22px;
 	position: absolute;
 	top: -8px;
-	right: 271px;
+	right: 331px;
 }
 ul#nav-bar {
 	height: 100%;
@@ -117,8 +116,7 @@ button:hover, a.button:hover {
 }
 nav #main-nav-bar li#link-to-cart {
 	position: absolute;
-	top: auto;
-	bottom: 84px;
+	top: 77px;
 	right: 0;
 	width: 131px;
 	height: 31px;
@@ -126,14 +124,14 @@ nav #main-nav-bar li#link-to-cart {
 	-moz-border-radius: 2px;
 	border-radius: 2px;
 	background-color: #e1121d;
-	-webkit-box-shadow: inset 1px 1px rgba(255,255,255,.4);
-	-moz-box-shadow: inset 1px 1px rgba(255,255,255,.4);
-	box-shadow: inset 1px 1px rgba(255,255,255,.4);
+	-webkit-box-shadow: inset 1px 1px rgba(255,255,255,0.4);
+	-moz-box-shadow: inset 1px 1px rgba(255,255,255,0.4);
+	box-shadow: inset 1px 1px rgba(255,255,255,0.4);
 	border: solid 1px #2b5474;
-	background-image: -webkit-linear-gradient(bottom, rgba(0,0,0,.1), rgba(255,255,255,.1));
-	background-image: -moz-linear-gradient(bottom, rgba(0,0,0,.1), rgba(255,255,255,.1));
-	background-image: -o-linear-gradient(bottom, rgba(0,0,0,.1), rgba(255,255,255,.1));
-	background-image: linear-gradient(to top, rgba(0,0,0,.1), rgba(255,255,255,.1));
+	background-image: -webkit-linear-gradient(bottom, rgba(0,0,0,0.1), rgba(255,255,255,0.1));
+	background-image: -moz-linear-gradient(bottom, rgba(0,0,0,0.1), rgba(255,255,255,0.1));
+	background-image: -o-linear-gradient(bottom, rgba(0,0,0,0.1), rgba(255,255,255,0.1));
+	background-image: linear-gradient(to top, rgba(0,0,0,0.1), rgba(255,255,255,0.1));
 	padding: 0;
 	margin: 0;
 }
@@ -149,6 +147,17 @@ nav #main-nav-bar li#link-to-cart a {
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
 	background: url(/images/cart_icon.png) no-repeat left center;
+}
+ul.header_top_bar li a {
+	color: #020202;
+	font-size: 14px;
+}
+ul.header_top_bar li {
+	float: right;
+}
+ul.header_top_bar {
+	position: absolute;
+	width: 330px;
 }
 /*----------------------[and Header]----------------------*/
 /*=====================================================================================================================================*/
