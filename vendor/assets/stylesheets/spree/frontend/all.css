@@ -33,7 +33,29 @@ body:before {
 	padding: 0;
 	margin: 0;
 }
-
+textarea,
+input[type="date"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="email"],
+input[type="month"],
+input[type="number"],
+input[type="password"],
+input[type="search"],
+input[type="tel"],
+input[type="text"],
+input[type="time"],
+input[type="url"],
+input[type="week"],
+input,
+textarea,
+keygen,
+select,
+button,
+meter,
+progress {
+	font-family: 'Open Sans Hebrew' !important;
+}
 /*----------------------[Header]--------------------------*/
 #header {
 	width: 960px;
@@ -111,10 +133,7 @@ select#taxon,
 li#home-link {
 	display: none;
 }
-input[type="submit"]:hover, 
-input[type="button"]:hover, 
-input[type="reset"]:hover, 
-button:hover, a.button:hover {
+#search-bar input[type="submit"]:hover {
 	background: url(/images/search.png);
 	background-color: #404042;
 	border-color: #404042;
@@ -350,6 +369,7 @@ footer#footer div.logo_ref {
 	line-height: 27px;
 	font-size: 13px;
 	color: #636363;
+	padding: 0 5px;
 }
 /*----------------------[end Footer]----------------------*/
 /*=====================================================================================================================================*/
