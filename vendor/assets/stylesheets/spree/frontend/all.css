@@ -80,7 +80,7 @@ input#keywords {
 nav#top-nav-bar #search-bar {
 	width: 218px;
 	position: relative;
-	top: 41px;
+	top: 40px;
 	right: -196px;
 	margin: 0;
 	padding: 0 0 0 10px;
@@ -89,7 +89,7 @@ nav#top-nav-bar {
 	width: 130px;
 	height: 22px;
 	position: absolute;
-	top: -8px;
+	top: -7px;
 	right: 331px;
 }
 ul#nav-bar {
@@ -105,7 +105,8 @@ nav#top-nav-bar ul li a {
 	color: #020202;
 }
 select#taxon,
-#link-to-cart a .amount {
+#link-to-cart a .amount,
+li#home-link {
 	display: none;
 }
 input[type="submit"]:hover, 
@@ -163,6 +164,15 @@ ul.header_top_bar {
 	position: absolute;
 	width: 330px;
 	top: 13px;
+}
+ul#main-nav-bar {
+	border: none;
+	margin: 0;
+	padding: 0;
+	height: 0;
+}
+nav #main-nav-bar li#link-to-cart:hover {
+	border: solid 1px #2b5474;
 }
 /*----------------------[and Header]----------------------*/
 /*=====================================================================================================================================*/
