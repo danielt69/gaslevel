@@ -1,4 +1,3 @@
-<div class="test">
 <% content_for :sidebar do %>
   <div data-hook="homepage_sidebar_navigation">
     <% if "spree/products" == params[:controller] && @taxon %>
@@ -21,11 +20,12 @@
   </div>
 
 <% else %>
-
-  <div data-hook="homepage_products">
-    <% cache(cache_key_for_products) do %>
-      <%= render :partial => 'spree/shared/products', :locals => { :products => @products, :taxon => @taxon } %>
-    <% end %>
+  <div class="test">
+    <div data-hook="homepage_products">
+      <% cache(cache_key_for_products) do %>
+        <%= render :partial => 'spree/shared/products', :locals => { :products => @products, :taxon => @taxon } %>
+      <% end %>
+    </div>
   </div>
 <% end %>
-</div>
+
