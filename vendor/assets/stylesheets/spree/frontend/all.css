@@ -209,6 +209,10 @@ ul.main_bar li a h3 {
 nav#top-nav-bar ul li.pos_1 {
 	padding-right: 6px;
 }
+ul.main_bar li:hover {
+	border-bottom: 4px solid #e2001a;
+	padding-bottom: 1px;
+}
 /*----------------------[and Header]----------------------*/
 
 /*----------------------[end Header]----------------------*/
