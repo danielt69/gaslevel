@@ -26,8 +26,9 @@ $( document ).ready(function() {
 	$('input#keywords').attr("placeholder", "");
 });
 
-//Header change text Cart
+
 $(window).load(function() {
+		//Header change text Cart
 		$('#link-to-cart a .amount').remove();
 		var old_text_cart = $('a.cart-info.full').text();
 		var new_text_cart = old_text_cart.replace("Cart:", "עגלת קניות");
