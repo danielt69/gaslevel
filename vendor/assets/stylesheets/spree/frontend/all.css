@@ -294,3 +294,28 @@ footer#footer > div {
 
 /*----------------------[end Item]----------------------*/
 /*=====================================================================================================================================*/
+
+/*----------------------[Products]--------------------------*/
+/*#wrapper div#content {
+	width: 960px;
+	margin: 0 auto;
+	float: none;
+	display: block;
+}
+ul#products li {
+	margin: 0;
+	padding: 0;
+	width: 283px;
+	height: 283px;
+	-webkit-border-radius: 142px 141px 141px 142px/141px 141px 142px 142px;
+	-moz-border-radius: 142px 141px 141px 142px/141px 141px 142px 142px;
+	border-radius: 142px 141px 141px 142px/141px 141px 142px 142px;
+	background-color: #fff;
+	-webkit-box-shadow: 0 0 7px rgba(99,99,99,.45);
+	-moz-box-shadow: 0 0 7px rgba(99,99,99,.45);
+	box-shadow: 0 0 7px rgba(99,99,99,.45);
+	border: solid 1px #acacac;
+	position: relative;
+}*/
+/*----------------------[end Products]----------------------*/
+/*=====================================================================================================================================*/
