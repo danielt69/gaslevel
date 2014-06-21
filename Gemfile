@@ -45,5 +45,14 @@ end
 # gem 'debugger', group: [:development, :test]
 
 gem 'spree', '2.2.2'
-gem 'spree_gateway', :path => 'vendor/gems/spree_gateway'
-gem 'spree_auth_devise', :path => 'vendor/gems/spree_auth_devise'
+#gem 'spree_gateway', :path => 'vendor/gems/spree_gateway'
+gem 'spree_gateway', github: 'spree/spree_gateway', :branch => '2-2-stable'
+#gem 'spree_auth_devise', :path => 'vendor/gems/spree_auth_devise'
+gem 'spree_auth_devise', github: 'spree/spree_auth_devise', :branch => '2-2-stable'
+
+# slider
+gem 'spree_slider', github: 'priviterag/spree_slider'
+
+
+
+
