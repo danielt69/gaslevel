@@ -51,7 +51,7 @@ figure#logo {
 	top: 63px;
 	right: 455px;
 }
-input[type="submit"] {
+#search-bar input[type="submit"] {
 	background: url(/images/search.png);
 	width: 39px;
 	height: 32px;
@@ -336,9 +336,16 @@ footer#footer div.logo_ref {
 	display: block;
 	float: none;
 	margin-bottom: 18px;
+	line-height: 27px;
+	font-size: 13px;
+	color: #636363;
 }
-#footer form li textarea{
-
+#footer form li textarea {
+	width: 100%;
+	min-height: 80px;
+	line-height: 27px;
+	font-size: 13px;
+	color: #636363;
 }
 /*----------------------[end Footer]----------------------*/
 /*=====================================================================================================================================*/
