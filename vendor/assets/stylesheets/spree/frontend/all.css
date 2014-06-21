@@ -305,7 +305,19 @@ footer#footer > div {
 	padding: 0;
 	margin: 0;
 }
-
+.contact_info .icon {
+	width: 55px;
+	height: 55px;
+	margin: 0 20px 0 0;
+	font-size: 0;
+	color: transparent;
+	display: inline-block;
+	float: left;
+	background: url(/images/facebook_icon.png) no-repeat center center #587aca;
+}
+.contact_info .icon.yt {
+	background: url(/images/youtube_icon.png) no-repeat center center #ee3e00;
+}
 .logo_ref {
 	float: left;
 	margin: 10px;
