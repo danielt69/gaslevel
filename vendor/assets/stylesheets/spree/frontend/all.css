@@ -543,55 +543,14 @@ ul.items:after {
 }
 div.bottom_wrapper {
 	height: 255px;
-	width: 100%;
-	margin: 10px 0;
 }
 div.bottom_wrapper .right {
 	float: right;
 	width: 320px;
-	background: #ebebeb;
-	height: 100%;
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	box-sizing: border-box;
-	padding: 24px 30px 24px 5px;
 }
 div.bottom_wrapper .left {
 	float: left;
 	width: 621px;
-	background: #ebebeb;
-	height: 100%;
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	box-sizing: border-box;
-	padding: 24px 30px 24px 5px;
-}
-
-div.bottom_wrapper div h3 {
-	color: #e2001a;
-	font-size: 19px;
-	line-height: 20px;
-}
-div.bottom_wrapper div p {
-	font-size: 14px;
-	line-height: 20px;
-	color: #000;
-	margin: 14px 0 0 0;
-	padding: 10px 0 0 0;
-}
-div.bottom_wrapper .right span {
-	color: #000;
-	line-height: 20px;
-	font-size: 14px;
-	font-weight: bold;
-}
-div.bottom_wrapper .left span {
-	float: left;
-	padding-top: 14px;
-	font-size: 13px;
-	line-height: 20px;
-	color: #000;
-	text-decoration: underline;
 }
 /*----------------------[end Homepage]---------------------- *= require themes/default/default
  *= require themes/pascal/pascal
