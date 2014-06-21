@@ -14,7 +14,7 @@ Deface::Override.new(:virtual_path => 'spree/shared/_header',
 Deface::Override.new(:virtual_path => 'spree/shared/_header',
          :name => 'header_top_ber',
          :insert_top => '#header[data-hook]',
-         :text          => '<ul class="header_top_bar"><li class="about"><a href="/about">אודות</a></li><li class="contact_us"><a href="/contact_us">צור קשר</a></li><li class="account"><a href="/account">מעקב הזמנות</a></li><li class="login"><a href="/login">כניסה לספקים</a></li></ul>',
+         :text          => '<ul class="header_top_bar"><li class="about"><a href="/about"></a></li><li class="contact_us"><a href="/contact_us"></a></li><li class="account"><a href="/account"></a></li><li class="login"><a href="/login"></a></li></ul>',
 )
 
 #:insert_after
