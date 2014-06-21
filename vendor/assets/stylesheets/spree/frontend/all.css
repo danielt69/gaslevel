@@ -273,7 +273,14 @@ footer#footer > div {
 	display: inline-block;
 }
 #footer-left ul {
-	padding-top: 22px;
+	padding-top: 12px;
+}
+#footer-left ul:after {
+	content: "";
+	display: table;
+	clear: both;
+	height: 0;
+	visibility: hidden;
 }
 #footer-left ul li {
 	color: #fff;
